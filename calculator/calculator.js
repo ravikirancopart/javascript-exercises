@@ -1,17 +1,17 @@
-function add (num1, num2) {
-	return sum = num1 + num2;	
+function add (n1, n2) {
+	return sum = n1 + n2;	
 }
 
-function subtract (num1, num2) {
-	return sub = num1 - num2;	
+function subtract (n1, n2) {
+	return sub = n1 - n2;	
 }
 
-function sum (arr) {
-	return arr.reduce((total,current ) => total + current, 0);
+function Sum (arr) {
+	return arr.reduce((total,curr) => (total + curr),0);
 }
 
-function multiply (array) {
-	return array.reduce((a,b) => a*b)
+function multiply (arr) {
+	return arr.reduce((a,b) => a*b)
 }
 
 function power(a,b) {
@@ -27,18 +27,16 @@ function factorial(a) {
 	}
 	return a;
 }
-
-
 console.log(add(2,3));
 console.log(subtract(4,1));
-console.log(sum([]));
+console.log(Sum([1,2,3,4,5]));
 console.log(multiply([2,3,5]));
 console.log(power(4,3));
 console.log(factorial(5));
 module.exports = {
 	add,
 	subtract,
-	sum,
+	Sum,
 	multiply,
     power,
 	factorial
