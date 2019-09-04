@@ -9,7 +9,7 @@ const palindromes = function(str) {
     return true;
 
 }
-console.log(palindromes('Animal loots foliated detail of stool lamina.'))
+console.log(palindromes('Animal loots foliated detail of stool lamina.'));
 module.exports = palindromes
 
 
